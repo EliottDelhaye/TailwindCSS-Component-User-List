@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-100 flex flex-col h-screen p-5">
+    <header class="w-full max-w-5xl mx-auto">
+      <h1 class="text-center text-3xl font-thin mb-4">
+        Your <span class="font-medium">Database</span>
+      </h1>
+      <div
+        class="flex flex-col items-center justify-between gap-5 sm:flex-row-reverse"
+      >
+        <nav class="flex justify-center space-x-2 py-5">
+          <button class="bg-blue-600 p-2 rounded-md text-white">
+            <a href="#">Members</a>
+          </button>
+          <button class="p-2 rounded-md"><a href="#">Admin</a></button>
+          <button class="p-2 rounded-md"><a href="#">Workers</a></button>
+        </nav>
+        <div
+          class="flex items-center space-x-1 w-full max-w-md px-2 border border-gray-400 bg-white h-10 rounded"
+        >
+          <label for="search">
+            <img
+              src="./ressources/magnifying-glass.svg"
+              alt="magnifying-glass"
+              class="w-6 h-6"
+            />
+          </label>
+          <input id="search" type="text" class="w-full outline-none" />
+        </div>
+      </div>
+    </header>
+    <main class="w-full max-w-5xl mx-auto">
+      <ul
+        class="grid gap-4 grid-cols-1 my-10 md:grid-cols-2 lg:grid-cols-3 md:my-20 mx-auto"
+      >
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face1.jpg"
+              alt="face1"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">Alex Johnson</p>
+            <p class="text-sm text-gray-400">San Francisco, CA</p>
+            <p>UI/UX Designer</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face2.jpg"
+              alt="face2"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">Michael Brown</p>
+            <p class="text-sm text-gray-400">London, UK</p>
+            <p>Data Scientist</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face3.jpg"
+              alt="face3"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">Emily Wilson</p>
+            <p class="text-sm text-gray-400">Sydney, Australia</p>
+            <p>Mobile App Developer</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face4.jpg"
+              alt="face4"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">David Lee</p>
+            <p class="text-sm text-gray-400">Tokyo, Japan</p>
+            <p>Software Engineer</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face5.jpg"
+              alt="face5"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">Sophia Davis</p>
+            <p class="text-sm text-gray-400">Paris, France</p>
+            <p>Web Designer</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face1.jpg"
+              alt="face1"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">Alex Johnson</p>
+            <p class="text-sm text-gray-400">San Francisco, CA</p>
+            <p>UI/UX Designer</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face2.jpg"
+              alt="face2"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">Michael Brown</p>
+            <p class="text-sm text-gray-400">London, UK</p>
+            <p>Data Scientist</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face3.jpg"
+              alt="face3"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">Emily Wilson</p>
+            <p class="text-sm text-gray-400">Sydney, Australia</p>
+            <p>Mobile App Developer</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face4.jpg"
+              alt="face4"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">David Lee</p>
+            <p class="text-sm text-gray-400">Tokyo, Japan</p>
+            <p>Software Engineer</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face5.jpg"
+              alt="face5"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">Sophia Davis</p>
+            <p class="text-sm text-gray-400">Paris, France</p>
+            <p>Web Designer</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face1.jpg"
+              alt="face1"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">Alex Johnson</p>
+            <p class="text-sm text-gray-400">San Francisco, CA</p>
+            <p>UI/UX Designer</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face2.jpg"
+              alt="face2"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">Michael Brown</p>
+            <p class="text-sm text-gray-400">London, UK</p>
+            <p>Data Scientist</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face3.jpg"
+              alt="face3"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">Emily Wilson</p>
+            <p class="text-sm text-gray-400">Sydney, Australia</p>
+            <p>Mobile App Developer</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face4.jpg"
+              alt="face4"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">David Lee</p>
+            <p class="text-sm text-gray-400">Tokyo, Japan</p>
+            <p>Software Engineer</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face5.jpg"
+              alt="face5"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">Sophia Davis</p>
+            <p class="text-sm text-gray-400">Paris, France</p>
+            <p>Web Designer</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face1.jpg"
+              alt="face1"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">Alex Johnson</p>
+            <p class="text-sm text-gray-400">San Francisco, CA</p>
+            <p>UI/UX Designer</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face2.jpg"
+              alt="face2"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">Michael Brown</p>
+            <p class="text-sm text-gray-400">London, UK</p>
+            <p>Data Scientist</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face3.jpg"
+              alt="face3"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">Emily Wilson</p>
+            <p class="text-sm text-gray-400">Sydney, Australia</p>
+            <p>Mobile App Developer</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face4.jpg"
+              alt="face4"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">David Lee</p>
+            <p class="text-sm text-gray-400">Tokyo, Japan</p>
+            <p>Software Engineer</p>
+          </div>
+        </li>
+        <li
+          class="bg-gray-100 ring-2 ring-zinc-200 ring-offset-1 rounded-lg shadow-md flex items-center space-x-5 p-3"
+        >
+          <div>
+            <img
+              src="./ressources/face5.jpg"
+              alt="face5"
+              class="rounded-full w-20 h-20 object-cover"
+            />
+          </div>
+          <div>
+            <p class="font-serif text-2xl">Sophia Davis</p>
+            <p class="text-sm text-gray-400">Paris, France</p>
+            <p>Web Designer</p>
+          </div>
+        </li>
+        
+      </ul>
+    </main>
+    <footer class="mt-auto py-5">
+      <p class="text-center text-gray-400">&copy; 2024 Delhaye Eliott</p>
+    </footer>
+  </body>
+</html>
