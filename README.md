@@ -32,4 +32,4 @@ To incorporate this user list component into your project, simply integrate the 
 
 ## Access
 
-For a live demo of the user list component, visit:
+For a live demo of the user list component, visit: https://eliottdelhaye.github.io/TailwindCSS-Component-User-List/
